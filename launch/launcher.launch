@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find dlib_faceshift)/launch/camera.launch"/>
+    <node name="dlib_faceshift_node" pkg="dlib_faceshift" type="dlib_faceshift" output="screen">
+    </node>
+</launch>
